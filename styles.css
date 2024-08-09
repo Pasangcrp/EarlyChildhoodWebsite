@@ -1,0 +1,239 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Madimi One', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #360050;
+    --pink: #F000B4;
+    --red: #dc3545;
+    --orange: #FF6900;
+    --yellow: #FFC300;
+    --green: #14DB6B;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #14DB6B;
+    --info: #17a2b8;
+    --warning: #FFC300;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+
+  --bg-color: #fefdfd;
+  --footer-bg-color: #360050;
+  --text-color: #020202;
+  --main-color: #222327;
+  --hover-color: #94bbf6;
+  /* --hover-color: #99c71f; */
+  /* --btn-color: #357214; */
+  --btn-color: #99c71f;
+}
+body {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+ img {
+  height: 16px;
+  width: auto; 
+  max-height: 100%;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: var(--hover-color);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* FOOTER START */
+
+.footer {
+    background-color: var(--footer-bg-color);
+    width: 100%;
+  }
+  
+  .footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+  }
+  
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .footer-col .links {
+    margin-top: 20px;
+  }
+  
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  
+  .footer-col .links li a:hover {
+    color: var(--hover-color);
+  }
+  
+  .footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+  }
+  
+  .footer-col form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489c6;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+  
+  .footer-col input::placeholder {
+    color: #ccc;
+  }
+  
+  .footer-col form button {
+    background: var(--btn-color);
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  
+  .footer-col form button:hover {
+    background: #cecccc;
+  }
+  
+  .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  
+  .footer-col .icons i {
+    color: #afb6c7;
+  }
+  
+  .footer-col .icons i:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      transform: none;
+      width: 100%;
+      border-radius: 0;
+    }
+  
+    .footer .footer-row {
+      padding: 20px;
+      gap: 1rem;
+    }
+  
+    .footer-col form {
+      display: block;
+    }
+  
+    .footer-col form :where(input, button) {
+      width: 100%;
+    }
+  
+    .footer-col form button {
+      margin: 10px 0 0 0;
+    }
+  }
+  
+  /* FOOTER END */

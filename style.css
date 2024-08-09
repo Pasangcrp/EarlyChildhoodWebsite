@@ -1,0 +1,1877 @@
+/* HOME PAGE */
+
+.hero {
+    background-image: url('/assets/frontpageImage.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    background-color: var(--btn-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #cecccc;
+  }
+  
+  /* Introduction Section */
+  .introduction {
+    background-color: #CCEDFF;
+    color: rgb(0, 0, 0);
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .introduction h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .introduction p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: auto;
+  }
+  /* Principles Section */
+.principles {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .principles h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .principles p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .principles ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .principles ul li {
+    background-color: #20c997;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    text-align: left;
+  }
+  
+  .principles ul li strong {
+    color: #343a40;
+  }
+  
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .feature {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin: 15px 0;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .more-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .features .cta-button {
+    background-color: var(--btn-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .features .cta-button:hover {
+    background-color: #cecccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature {
+      width: 100%;
+    }
+  
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .introduction h2 {
+      font-size: 2em;
+    }
+  }
+    
+/* HOME PAGE END */
+
+/* OUR MISSION SECTION */
+/* Mission Section */
+.mission {
+  background-color: var(--main-color);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.mission-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.mission h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.mission p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: var(--btn-color);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #cecccc;
+}
+
+/* Extended Mission Section */
+.mission-extended {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.mission-extended h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.mission-extended p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* Mission Statistics Section */
+.mission-stats {
+  padding: 40px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.mission-stats h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.chart {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.chart h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+/* Activities Table Section */
+.activities-table {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.activities-table h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.activities-table table {
+  width: 100%;
+  max-width: 900px;
+  margin: auto; /* Center the table horizontally */
+  border-collapse: collapse;
+}
+
+.activities-table th,
+.activities-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left; /* Align text to the left */
+  font-size: 1.1em;
+}
+
+.activities-table th {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.activities-table td a {
+  color: var(--btn-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.activities-table td a:hover {
+  color: var(--hover-color);
+}
+
+/* OUR MISSION SECTION END*/
+
+
+/* ART SECTION */
+/* Scoped container class for the art.html page */
+.art-page body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.art-page h1, .art-page h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.art-page p {
+  margin: 0 0 15px;
+}
+
+.art-page ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.art-page img, .art-page video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.art-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Styles for the Introduction Section */
+.art-page .art-introduction {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.art-page .art-introduction .content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.art-page .art-introduction .text-content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.art-page .art-introduction h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.art-page .art-introduction p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.art-page .art-introduction img.side-image {
+  flex: 1;
+  margin-left: 20px;
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styles for the Developmental Stages Section */
+.art-page .art-development {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden; /* Ensures the content stays within the bounds */
+}
+
+.art-page .art-development .content-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.art-page .art-development .text-content {
+  position: absolute;
+  left: 17%;
+  width: 33%;
+  transform: translateX(-50%);
+  z-index: 2;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.art-page .art-development .background-video {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.art-page .art-development h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.art-page .art-development p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.art-page .art-development .stages-list ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.art-page .art-development .stages-list li {
+  margin-bottom: 10px;
+}
+
+/* Styles for the 2D Art Processes Section */
+.art-page .art-2d-processes {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.art-page .art-2d-processes .content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.art-page .art-2d-processes .side-image {
+  flex: 1;
+  margin-right: 20px;
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.art-page .art-2d-processes .text-content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(240, 240, 240, 0.9); /* Light grey background with slight transparency */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the text content */
+}
+
+.art-page .art-2d-processes h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.art-page .art-2d-processes p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.art-page .art-2d-processes .art-activities ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  padding-left: 20px;
+  color: #333;
+}
+
+.art-page .art-2d-processes .art-activities li {
+  margin-bottom: 10px;
+}
+
+
+/* Styles for the 3D Art Processes Section */
+.art-page .art-3d-processes {
+  position: relative;
+  background: url('/assets/3Dimg.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures content stays within the bounds */
+}
+
+.art-page .art-3d-processes .content-wrapper {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.art-page .art-3d-processes h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.art-page .art-3d-processes p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.art-page .art-3d-processes .art-materials ul {
+  list-style-type: square;
+  margin-left: 20px;
+  padding-left: 20px;
+  color: #333;
+}
+
+.art-page .art-3d-processes .art-materials li {
+  margin-bottom: 10px;
+}
+
+/* Overlay to darken the background image for better readability */
+.art-page .art-3d-processes::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 1;
+}
+
+/* Styles for the Art and Child Development Section */
+.art-page .art-child-development {
+  background-color: #e0f7fa; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centers the heading */
+}
+
+.art-page .art-child-development h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #00796b; /* Darker shade of teal for the heading */
+}
+
+.art-page .art-child-development .content-wrapper {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left; /* Ensures content is aligned to the left */
+  overflow: hidden; /* Ensures content stays within the bounds */
+}
+
+.art-page .art-child-development .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/art.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.3; /* Makes the background image transparent */
+  z-index: 1;
+}
+
+.art-page .art-child-development p,
+.art-page .art-child-development .development-areas {
+  position: relative;
+  z-index: 2; /* Ensures text is above the background image */
+}
+
+.art-page .art-child-development p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.art-page .art-child-development .development-areas ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #333;
+}
+
+.art-page .art-child-development .development-areas li {
+  margin-bottom: 10px;
+}
+
+/* Styles for the Teaching Art Section */
+.art-page .art-teaching {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.art-page .art-teaching h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.art-page .art-teaching p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.art-page .art-teaching blockquote {
+  font-style: italic;
+  color: #666;
+  padding: 10px;
+  border-left: 5px solid #ccc;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+
+/* DRAMA SECTION */
+/* Container for the introduction section */
+.drama-page .drama-introduction .introduction-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the image */
+.drama-page .drama-introduction .introduction-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px; /* Margin on the right to separate image from text */
+}
+
+/* Styles for the text content */
+.drama-page .drama-introduction .introduction-text {
+  flex: 1;
+}
+
+.drama-page .drama-introduction .introduction-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.drama-page .drama-introduction .introduction-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+
+/* Development of Drama Section */
+.drama-page .drama-development {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.drama-page .drama-development h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #00796b;
+  text-align: center;
+}
+
+.drama-page .drama-development p,
+.drama-page .drama-development ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  margin-left: 20px;
+}
+
+/* Creative Dramatics Section */
+.drama-page .creative-dramatics {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.drama-page .creative-dramatics h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #f57c00;
+  text-align: center;
+}
+
+.drama-page .creative-dramatics p,
+.drama-page .creative-dramatics ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  margin-left: 20px;
+}
+
+/* Teaching Drama Section */
+.drama-page .teaching-drama {
+  background-color: #e8eaf6;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.drama-page .teaching-drama h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #3f51b5;
+}
+
+.drama-page .teaching-drama p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.drama-page .teaching-drama blockquote {
+  font-style: italic;
+  color: #666;
+  padding: 10px;
+  border-left: 5px solid #ccc;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.drama-page .teaching-drama ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+/* DRAMA SECTION END */
+
+/* ENGINEERING SECTION */
+
+/* Introduction Section */
+.engineering-page .engineering-introduction {
+  position: relative;
+  z-index: 1; /* Lower z-index to ensure it's below the dropdown */
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.engineering-page .engineering-introduction .content-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.engineering-page .engineering-introduction h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.engineering-page .engineering-introduction p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.engineering-page .engineering-introduction .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+/* Engineering Activities Section */
+.engineering-page .engineering-activities {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.engineering-page .engineering-activities .content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.engineering-page .engineering-activities .text-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.engineering-page .engineering-activities h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #f57c00;
+}
+
+.engineering-page .engineering-activities p,
+.engineering-page .engineering-activities ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.engineering-page .engineering-activities img.side-image {
+  flex: 1;
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+
+/* Developmental Stages Section */
+.engineering-page .engineering-development {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.engineering-page .engineering-development h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #00796b;
+  text-align: center;
+}
+
+.engineering-page .engineering-development p,
+.engineering-page .engineering-development ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  margin-left: 20px;
+}
+
+/* Integration Section */
+.engineering-page .engineering-integration {
+  background-color: #e8eaf6;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.engineering-page .engineering-integration h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #3f51b5;
+  text-align: center;
+}
+
+.engineering-page .engineering-integration p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.engineering-page .engineering-integration ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+/* ENGINEERING SECTION END */
+
+/* HUMANITIES SECTION */
+/* Scoped container class for the humanities page */
+.humanities-page {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.humanities-page h1, .humanities-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.humanities-page p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1.2em;
+}
+
+.humanities-page .content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.humanities-page .humanities-introduction {
+  background-image: url('/assets/humanities1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.humanities-page .humanities-introduction::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.humanities-page .humanities-introduction .content-wrapper {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.humanities-page .key-concepts,
+.humanities-page .facilitating-learning,
+.humanities-page .developmental-considerations {
+  margin-bottom: 40px;
+  background-color: #e3f2fd; /* Light Blue background for these three sections */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.humanities-page .creative-approaches,
+.humanities-page .teaching-resources {
+  margin-bottom: 40px;
+  background-color: #fce4ec; /* Light Pink background for the last two sections */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.humanities-page .content-wrapper h2 {
+  font-size: 2em;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.humanities-page .content-wrapper p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: justify;
+}
+
+/* HUMANITIES SECTION END */
+
+/* INTEGRATED CURRICULUM */
+/* Integrated Curriculum Alternative Page */
+.integrated-curriculum-page-alt {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.intro-banner {
+  background-image: url('/assets/ic1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.intro-banner .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.intro-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.intro-banner p {
+  font-size: 1.3em;
+}
+
+.info-section,
+.facilitating-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-section .info-wrapper,
+.facilitating-section .info-wrapper {
+  flex: 1 1 50%;
+  padding: 20px;
+}
+
+.info-section .image-wrapper,
+.facilitating-section .image-wrapper {
+  flex: 1 1 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-section img,
+.facilitating-section img {
+  max-width: 100%;
+  max-height: 400px; /* Ensure the image doesn’t get too tall */
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+
+.info-section h2,
+.facilitating-section h2 {
+  font-size: 2.5em;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+.creative-approaches-section,
+.resources-section {
+  padding: 40px 20px;
+  background-color: #e0f7fa;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.creative-approaches-section h2,
+.resources-section h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #f57c00;
+}
+
+.creative-approaches-section p,
+.resources-section p {
+  font-size: 1.2em;
+  color: #555;
+}
+/* INTEGRATED CURRICULUM END */
+
+/* LANGUAGE AND LITERACY */
+/* Scoped container class for the language and literacy page */
+.language-literacy-page {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.language-literacy-page h1, 
+.language-literacy-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.language-literacy-page p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.language-literacy-page .content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.language-literacy-page .content-wrapper.reverse-layout {
+  flex-direction: row-reverse;
+}
+
+.language-literacy-page .language-introduction {
+  background-image: url('/assets/languageinto.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.language-literacy-page .language-introduction::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.language-literacy-page .language-introduction .content-wrapper {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.language-literacy-page .side-image {
+  width: 45%;
+  height: auto;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.language-literacy-page .content-text {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.language-literacy-page .content-wrapper.reverse-layout .side-image {
+  margin-left: 0;
+  margin-right: 20px; /* Added margin to the right for better spacing */
+}
+
+.language-literacy-page .creative-development,
+.language-literacy-page .enhancing-development,
+.language-literacy-page .storytelling-techniques,
+.language-literacy-page .poetry-and-singing {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.language-literacy-page .creative-development .content-wrapper,
+.language-literacy-page .enhancing-development .content-wrapper,
+.language-literacy-page .storytelling-techniques .content-wrapper,
+.language-literacy-page .poetry-and-singing .content-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.language-literacy-page blockquote {
+  font-style: italic;
+  color: #666;
+  padding: 10px;
+  border-left: 5px solid #ccc;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* LANGUAGE AND LITERACY */
+
+/* MATHEMATICS AND NUMERACY */
+/* Scoped container class for the mathematics and numeracy page */
+.maths-numeracy-page {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.maths-numeracy-page h1, 
+.maths-numeracy-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.maths-numeracy-page p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.maths-numeracy-page .content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.maths-numeracy-page .content-wrapper.reverse-layout {
+  flex-direction: row-reverse;
+}
+
+.maths-numeracy-page .side-image {
+  width: 45%;
+  height: auto;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.maths-numeracy-page .content-text {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.maths-numeracy-page .content-wrapper.reverse-layout .side-image {
+  max-height: 22rem;
+  margin-left: 0;
+  margin-right: 20px; /* Added margin to the right for better spacing */
+}
+
+.maths-numeracy-page .maths-introduction {
+  background-image: url('/assets/maths2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.maths-numeracy-page .maths-introduction::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.maths-numeracy-page .maths-introduction .content-wrapper {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.maths-numeracy-page .learning-experiences,
+.maths-numeracy-page .learning-resources {
+  background-image: url(/assets/learning.png);
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.maths-numeracy-page .learning-experiences .content-wrapper,
+.maths-numeracy-page .learning-resources .content-wrapper {
+  background-color: #f7f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.maths-numeracy-page .experience {
+  margin-bottom: 20px;
+}
+
+.maths-numeracy-page .experience h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.maths-numeracy-page .experience p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .maths-numeracy-page .content-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .maths-numeracy-page .content-text {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .maths-numeracy-page .side-image {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* MATHEMATICS AND NUMERACY */
+
+/* MUSIC AND MOVEMENT */
+/* Scoped container class for the music and movement page */
+.music-movement-page {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.music-movement-page h1, 
+.music-movement-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.music-movement-page p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.music-movement-page .intro-section {
+  position: relative;
+  margin-bottom: 40px;
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.music-movement-page .intro-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%; /* Make sure it fills the entire section */
+}
+
+.music-movement-page .intro-image img.intro-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+  display: block;
+}
+
+.music-movement-page .intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+}
+
+.music-movement-page .intro-text h1,
+.music-movement-page .intro-text p {
+  color: #fff; /* Set font color to white */
+}
+
+.music-movement-page .content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.music-movement-page .content-text {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.music-movement-page .side-image {
+  width: 45%; /* Added width to control the image size */
+  padding-left: 20px; /* Added padding to create space between the image and content */
+}
+
+.music-movement-page .side-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.music-movement-page .movement-img,
+.music-movement-page .planning-img,
+.music-movement-page .goals-img,
+.music-movement-page .bringing-together-img {
+  max-height: 400px; /* Ensures the image height is consistent */
+}
+
+.music-movement-page .reverse-layout {
+  flex-direction: row-reverse;
+}
+
+.music-movement-page .reverse-layout .side-image {
+  padding-right: 20px; /* Added padding to create space between the image and content */
+  padding-left: 0;
+}
+
+.music-movement-page .reverse-layout .side-image img {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.music-movement-page blockquote {
+  font-style: italic;
+  color: #666;
+  padding: 10px;
+  border-left: 5px solid #ccc;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.music-movement-page .creative-music blockquote {
+  background-color: #e0f7fa;
+  border-left-color: #00796b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .music-movement-page .intro-text {
+      top: 10%;
+      width: 90%;
+  }
+
+  .music-movement-page .content-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .music-movement-page .content-text {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .music-movement-page .side-image {
+      width: 100%;
+      padding-left: 0;
+  }
+
+  .music-movement-page .side-image img {
+      width: 100%;
+      margin: 0;
+      height: auto; /* Allow the image to scale naturally on smaller screens */
+  }
+}
+/* MUSIC AND MOVEMENT */
+
+
+
+/* SCIENCE */
+.science-page {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  padding: 30px;
+  background-color: #f0f3f5;
+}
+
+.science-page h1, 
+.science-page h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.science-page p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.science-page .intro-section {
+  background-image: url('/assets/scienceBg.jpg');
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat;
+  color: #ecf0f1;
+  padding: 40px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 40px;
+  height: 400px; /* Set a fixed height for the intro section */
+  position: relative; /* Allows child elements to position themselves relative to this container */
+  overflow: hidden;
+}
+
+.science-page .intro-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.science-page .intro-section h1,
+.science-page .intro-section p {
+  position: relative;
+  z-index: 2;
+}
+
+.science-page .intro-text {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background color with some transparency */
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.science-page .intro-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.science-page .intro-section p {
+  font-size: 1.2em;
+}
+
+.science-page .content-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.science-page .key-concepts-section {
+  background-color: #ecf0f1;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.science-page .inquiry-skills-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.science-page .inquiry-skills-section ul li {
+  background-color: #e74c3c;
+  color: #fff;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+.science-page .learning-environments-section {
+  background-color: #18fbce;
+  color: #fff;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.science-page .learning-experiences-section {
+  background-color: #77c0f1;
+  color: #fff;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .science-page .intro-section h1 {
+      font-size: 2em;
+  }
+
+  .science-page .content-wrapper,
+  .science-page .key-concepts-section,
+  .science-page .learning-environments-section,
+  .science-page .learning-experiences-section {
+      padding: 20px;
+  }
+}
+
+/* SCIENCE */
+/* Scoped container class for the technology page */
+.technology-page {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  padding: 30px;
+  background-color: #f0f3f5;
+}
+
+.technology-page h1, 
+.technology-page h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.technology-page p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.technology-page .intro-section {
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.technology-page .intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.technology-page .intro-text {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background color with some transparency */
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.technology-page .intro-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  max-height: 400px;
+  flex: 1;
+}
+
+.technology-page .content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.technology-page .content-text {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.technology-page .side-image {
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.technology-page .side-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 400px; /* Ensures consistent image height */
+}
+
+.technology-page .reverse-layout {
+  flex-direction: row-reverse;
+}
+
+.technology-page .reverse-layout .side-image {
+  padding-left: 0;
+  padding-right: 20px; /* Add space between the content and the image */
+}
+
+.technology-page .reverse-layout .side-image img {
+  margin-left: 0;
+}
+
+.learning-resources-section {
+  background-image: url(/assets/techkids.png);
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .technology-page .intro-text {
+      width: 100%;
+      padding-right: 0;
+  }
+
+  .technology-page .intro-image img,
+  .technology-page .side-image img {
+      width: 100%;
+      margin: 0;
+      height: auto;
+  }
+
+  .technology-page .content-wrapper {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .technology-page .content-text {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .technology-page .side-image {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+
+/* TECHNOLOGY */
+
+/* REFERENCES */
+/* Scoped container class for the references page */
+.references-page {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding: 40px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.references-page .intro-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.references-page h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.references-page p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.references-page .reference-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.references-page .reference-item {
+  margin-bottom: 40px;
+}
+
+.references-page .reference-item h2 {
+  font-size: 1.8em;
+  color: #00796b;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00796b;
+  padding-bottom: 5px;
+}
+
+.references-page .reference-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.references-page .reference-item ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.references-page .reference-item ul li a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.references-page .reference-item ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .references-page {
+    padding: 20px;
+  }
+
+  .references-page h1 {
+    font-size: 2em;
+  }
+
+  .references-page .reference-item h2 {
+    font-size: 1.5em;
+  }
+
+  .references-page p {
+    font-size: 1em;
+  }
+}
+
+/* REFERENCES */
